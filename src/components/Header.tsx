@@ -19,7 +19,7 @@ const Header = () => {
   useEffect(() => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  });
 
   const toggleMobileMenu = () => {
     setMobileMenuVisible(!isMobileMenuVisible);
@@ -107,8 +107,12 @@ const Header = () => {
                 <Image
                   src="/logo.svg"
                   alt="Logo do Baratão Supermercados"
-                  width={180}
-                  height={80}
+                  width={0}
+                  height={0}
+                  style={{
+                    objectFit: "contain",
+                  }}
+                  className="w-full h-full max-w-[150px] md:max-w-[180px] "
                   quality={100}
                 />
               </Link>

@@ -64,7 +64,7 @@ export const Contact = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <h1 className="relative text-center text-4xl font-bold">
+        <h1 className="relative text-center text-3xl md:text-4xl font-bold">
           Melhores Preços para Você!
         </h1>
 

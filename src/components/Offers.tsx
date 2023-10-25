@@ -16,7 +16,7 @@ export const Offers = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.1 }}
       >
-        <h1 className="relative text-center text-3xl font-bold">
+        <h1 className="relative text-center text-3xl px-4 font-bold">
           Não Perca Nossas Ofertas Especiais
           <span className="absolute bottom-2 left-1/2 h-[2px] w-40 -translate-x-1/2 translate-y-4 transform rounded-full bg-secondary" />
         </h1>
@@ -45,7 +45,7 @@ export const Offers = () => {
         })}
       </motion.div>
 
-      <div className="flex items-center justify-center gap-6">
+      <div className="flex items-center justify-center flex-col gap-6 sm:flex-row">
         <motion.span
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}

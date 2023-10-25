@@ -3,7 +3,7 @@ import { StoreLocation } from "./StoreLocation";
 
 export const Stores = () => {
   return (
-    <section className="mx-auto my-4 py-10">
+    <section className="mx-auto my-4 py-10 px-5">
       <motion.h1
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}

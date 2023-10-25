@@ -11,7 +11,7 @@ export const AdOffers = () => {
         transition={{ duration: 0.5 }}
         className="relative mx-auto max-w-screen-xl p-4 py-8 flex justify-center flex-col md:block"
       >
-        <h1 className="max-w-md text-5xl font-bold mx-auto text-center text-white md:mx-0 md:text-left">
+        <h1 className="max-w-md  text-4xl md:text-5xl font-bold mx-auto text-center text-white md:mx-0 md:text-left">
           Descubra Ofertas Especiais!
           <span className="text-secondary"> Economize Agora</span>
         </h1>
@@ -24,7 +24,7 @@ export const AdOffers = () => {
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="rounded-lg bg-secondary mx-auto px-8 py-3 text-lg font-medium hover:scale-105 hover:brightness-90"
+          className="rounded-lg z-10 bg-secondary mx-auto px-8 py-3 text-lg font-medium hover:scale-105 hover:brightness-90"
         >
           <Link
             href={
@@ -38,7 +38,7 @@ export const AdOffers = () => {
         <motion.img
           src={"/hero.png"}
           alt="Hero"
-          className="w-28 md:w-80 h-auto right-0 -bottom-10 absolute md:right-10 md:-top-10"
+          className="w-28 md:w-80 h-auto -right-10 -bottom-10 absolute md:right-10 md:-top-10"
           initial={{ translateY: 0 }}
           animate={{
             translateY: [0, -10, 10, -10, 10, -10, 10, -10, 0],

@@ -22,7 +22,7 @@ export const StoreLocation = ({
       whileInView={{ scale: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-      className="max-w-[400px] overflow-hidden rounded-lg bg-primary pb-2 text-white"
+      className="max-h-[550px] w-full max-w-[400px] overflow-hidden rounded-lg bg-primary pb-2 text-white"
     >
       <div>
         {title === "Gama Sul" ? (

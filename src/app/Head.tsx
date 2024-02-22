@@ -58,6 +58,13 @@ export const Head = () => {
         />
       ))}
 
+      <meta
+        name="google-site-verification"
+        content="o14hO003aYPXQna83X-zhth8LjY2mi7UOM4mLFblaVQ"
+      />
+      <meta name="google-adsense-account" content="ca-pub-9125682874703477" />
+      <meta name="robots" content="all" />
+
       <link rel="icon" href="favicon.png" sizes="any" />
       <title>Baratao Supermercados | O Herói dos Preços Baixos!</title>
     </>
